@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teachely - Learn Better</title>
+  <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Teachely</h1>
+    <p>Discover and share learning resources with AI-powered suggestions</p>
+  </header>
+  <main>
+    <section class="link-form">
+      <h2>Share a Resource</h2>
+      <input type="text" id="title" placeholder="Title" />
+      <input type="url" id="url" placeholder="Link (YouTube, Site, etc.)" />
+      <textarea id="description" rows="3" placeholder="Short description..."></textarea>
+      <button onclick="submitResource()">Submit</button>
+    </section>
+    <section>
+      <h2>Community Resources</h2>
+      <ul id="resourceFeed"></ul>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+h2 {
+  color: #333;
+}
+.link-form {
+  margin-bottom: 2rem;
+}
+.link-form input,
+.link-form textarea {
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+.link-form button {
+  padding: 0.5rem 1rem;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background-color: #fff;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  border-left: 4px solid #4a90e2;
+}
+a {
+  color: #4a90e2;
+  text-decoration: none;
+}
